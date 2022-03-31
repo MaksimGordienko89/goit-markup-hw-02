@@ -76,6 +76,9 @@ body {
   color: #757575;
 }
 /* MAIN */
+.section {
+  background-color: #2f303a;
+}
 .main-title {
   font-family: "Roboto";
   font-style: normal;
@@ -86,7 +89,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
 }
 .btn-main {
   font-family: "Roboto";
