@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  color: #212121;
 }
 li {
   list-style: none;
@@ -35,22 +36,18 @@ li {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.link:hover {
+.link:hover,
+.mail:hover,
+.tel:hover,
+.footer-mail:hover,
+.footer-tel:hover {
   color: #2196f3;
 }
-.link:focus {
-  color: #2196f3;
-}
-.mail:hover {
-  color: #2196f3;
-}
-.mail:focus {
-  color: #2196f3;
-}
-.tel:hover {
-  color: #2196f3;
-}
-.tel:focus {
+.link:focus,
+.mail:focus,
+.tel:focus,
+.footer-mail:focus,
+.footer-tel:focus {
   color: #2196f3;
 }
 .link {
@@ -86,6 +83,7 @@ li {
   color: #ffffff;
 }
 .btn-main {
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -97,13 +95,16 @@ li {
   background-color: #2196f3;
 }
 .btn-filter {
+  cursor: pointer;
   color: #212121;
   background-color: #f5f4fa;
 }
 .btn-filter:hover {
+  color: #f5f4fa;
   background-color: #2196f3;
 }
 .btn-filter:focus {
+  color: #f5f4fa;
   background-color: #2196f3;
 }
 .text-filter {
@@ -112,7 +113,6 @@ li {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .text-filter:hover {
   color: #f5f4fa;
@@ -127,7 +127,6 @@ li {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
 .text {
   font-weight: 400;
@@ -141,14 +140,12 @@ li {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 .profesion {
   font-weight: 400;
@@ -174,6 +171,7 @@ footer {
 .adress {
   list-style: none;
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -184,6 +182,7 @@ footer {
 .footer-tel {
   list-style: none;
   text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -195,7 +194,6 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
 }
 .filter-subtitle {
   font-weight: 400;
